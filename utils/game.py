@@ -70,7 +70,7 @@ class Hangman:
         until the player loses or until he finds the word.
         """
         while self.playing:
-            print("The word to guess: ")
+            print("\n\nThe word to guess: ")
             print(self.correctly_guessed_letters)
             print("\nYou already tried these letters: ", self.wrongly_guessed_letters)
             print(f"You made {self.error_count} errors. You have {self.lives} chances left!")
